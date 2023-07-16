@@ -1,0 +1,18 @@
+When the user enters the URL, the browser first checks its cache to see if it already has the IP address for Google’s server. If it doesn’t, the browser sends a request to a DNS (Domain Name System) server to get the IP address for “www.google.com". The DNS server responds with the IP address, which the browser uses to send a request to Google’s server.
+
+The request is sent using the TCP/IP (Transmission Control Protocol/Internet Protocol) protocol. This protocol breaks the data into small packets and sends them over the internet to the server. The server receives the packets and reassembles them into the original request.
+
+If Google’s server is protected by a firewall, the request must pass through it. The firewall checks the request to make sure it’s legitimate and not a security threat.
+
+Since Google uses HTTPS, the connection between the browser and the server is encrypted and secured by an SSL (Secure Sockets Layer) certificate. This ensures that any data sent between the browser and the server is private and can’t be intercepted by hackers.
+
+If Google’s server is under heavy traffic, it may use a load balancer to distribute requests across multiple servers. The load balancer uses a load-balancing algorithm to decide which server to send each request to.
+
+Once the request reaches the server, it’s processed by a web server. The web server finds the requested webpage and sends it back to the browser. If the webpage is dynamic, the web server may pass the request on to an application server, which interacts with a database to generate the dynamic content.
+
+Finally, the requested webpage is sent back to the browser and displayed on the user’s screen.
+
+
+
+
+
